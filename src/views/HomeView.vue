@@ -3,7 +3,7 @@
     <b-container class="bv-example-row" fluid>
       <b-row>
         <div class="col-sm-2"></div>
-        <div class="col-sm-8">
+        <div class="col-sm-8 p-0 p-sm-4">
           <b-card>
             <div class="d-flex">
               <div class="px-2">
@@ -32,7 +32,7 @@
                 </div>
                 <hr class="my-2">
                 <div class="row">
-                  <div class="col-sm-6 text-left" style="color: #007bff;">
+                  <div class="col-8 text-left" style="color: #007bff;">
                     <span class="px-1" style="cursor: pointer;">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-card-image" viewBox="0 0 16 16">
                         <path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
@@ -68,7 +68,7 @@
                       </svg>
                     </span>
                   </div>
-                  <div class="col-sm-6 text-sm-right">
+                  <div class="col-4 text-right">
                     <b-button @click.prevent="saveTweet" pill variant="primary"><strong>Tweet</strong></b-button>
                   </div>
                 </div>
@@ -80,7 +80,7 @@
             :key="idx"
             class="card p-0 text-left"
             >
-            <div class="card-header">
+            <div class="card-header" style="background-color: unset; border-bottom: unset;">
               <div class="d-flex">
                 <div class="px-2">
                   <img
